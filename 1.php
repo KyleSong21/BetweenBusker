@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+ <title>Between Busker</title>
+ <meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="index.php">Between Busker</a></h1>
+   <ol>
+     <li><a href="1.php?id=Band소개">Band소개</a></li>
+     <li><a href="2.php?id=Band영상">Band영상</a></li>
+     <li><a href="comparison.php?id=comparison">comparison</a></li>
+</ol>
+<h2><u>Band소개</u></h2><p>
+  <img src="images.jpg" width="30%>"><p>
+  제임스 헷필드(James Hetfield) (리듬 기타, 보컬, 1981년 ~ 현재)<p>
+  커크 해밋(Kirk Hammett) (리드 기타, 백그라운드 보컬, 1983년 ~ 현재)<p>
+  로버트 트루히요(Robert Trujillo) (베이스 기타, 백그라운드 보컬, 2003년 ~ 현재)<p>
+  라스 울리히(Lars Ulrich) (드럼, 타악기, 1981년 ~ 현재)<p>
+    <?php
+  echo $_GET['id'];
+
+     ?>
